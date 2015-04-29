@@ -41,7 +41,12 @@ img.nav {
 
 }
 
-a.highlighted {
+.navigation a.highlighted {
+	background-color: #82DBC0;
+}
+
+
+.highlight1 {
 	width: 40px;
 	height: 40px;
 	background: #82DBC0;
