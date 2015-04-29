@@ -1,0 +1,169 @@
+/* General Formatting */
+body {
+	font-family: Gill Sans, Helvetica, sans-serif; 	
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	color: #A7A9AB;
+	font-size: 18px;
+}
+
+
+ul.links {
+	list-style-type: none;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0; 
+	overflow: hidden;
+}
+
+ul.links li {
+	display: inline;
+	float: left;
+}
+
+img.nav {
+	width: 38px;
+	padding: 0px 11px;
+}
+
+.navigation {
+	position: fixed;
+	width: 900px;
+	bottom: 5%;
+	left: 50%;
+	margin: 0 0 0 -37.5%;
+	background-color: white;
+
+}
+
+.navigation a.highlighted {
+	background-color: #82DBC0;
+}
+
+
+.highlight1 {
+	width: 40px;
+	height: 40px;
+	background: #82DBC0;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: fixed;
+	opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.right {
+	width: 30px;
+	height: 600px;
+	background: #A7A9AB;
+	position: fixed;
+	right:5%;
+	top:15px;
+		
+}
+
+#arrow {
+    border-right:5px solid #82DBC0;
+    border-bottom:5px solid #82DBC0;
+    width:20px;
+    height:20px;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg);
+    float: right;
+    margin-right: 30%;
+    margin-top: 280px;
+   
+}
+
+.left {
+	width: 30px;
+	height: 600px;
+	background: #A7A9AB;
+	position: fixed;
+	left:5%;
+	top:15px;
+		
+}
+
+#arrow2 {
+    border-right:5px solid #82DBC0;
+    border-bottom:5px solid #82DBC0;
+    width:20px;
+    height:20px;
+    -ms-transform: rotate(135deg); /* IE 9 */
+    -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
+    transform: rotate(135deg);
+    float: left;
+    margin-left: 30%;
+    margin-top: 280px;
+   
+}
+
+
+
+/* Home Page */
+
+.home {
+	width:1050px;
+	height: 800px;
+	margin: 0 auto;
+	background-image: url("pics/background.png");
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+	top: 15%;
+	text-align: center;
+
+}
+
+.oval1 {
+
+	width: 600px;
+    height: 300px;
+    background: #82DBC0;
+    -moz-border-radius: 300px / 150px;
+    -webkit-border-radius: 300px / 150px;
+    border-radius: 300px / 150px;
+	margin: 0 auto;
+
+	
+}
+
+.oval2 {
+
+	width: 550px;
+    height: 250px;
+    background:white;
+    -moz-border-radius: 275px / 125px;
+    -webkit-border-radius: 275px / 125px;
+    border-radius: 275px / 125px;
+	margin: -275px auto;
+	
+}
+
+#title {
+	margin: 100px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
